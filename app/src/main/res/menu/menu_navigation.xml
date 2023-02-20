@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/trainers"
+        android:title="Trainers"
+        android:icon="@drawable/ic_baseline_sports_24"/>
+    <item
+        android:id="@+id/sessions"
+        android:title="Sessions"
+        android:icon="@drawable/ic_baseline_handshake_24"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+</menu>

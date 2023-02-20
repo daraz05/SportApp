@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SessionScreen"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSessionNameS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Session Name"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvSessionLocationS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Session Location"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tvSessionDateS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Session Date"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tvSessionStartTimeS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session Date"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_toRightOf="@id/tvSessionStartTimeS"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tvSessionEndTimeS"
+            android:layout_toRightOf="@+id/tvSessionStartTimeS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session Date"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trainer:"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvSessionTrainerS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Session Trainer"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trainees:"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvSessionTraineesS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Session Trainees"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnJoinSession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Session"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

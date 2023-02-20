@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignedIn"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        />
+    <Button
+        android:id="@+id/btnCreateAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="-80dp"
+        android:text="Create random alarm"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btnShowUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="-80dp"
+        android:text="Show Users' Data in List"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnUsersData1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="-150dp"
+        android:text="Show Users' Data In Toasts"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btnUsersData2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="-170dp"
+        android:text="Show Male Users' Data In Toasts"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btnStartService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="-170dp"
+        android:text="Start Service"
+        android:textAllCaps="false"/>
+
+
+    <EditText
+        android:id="@+id/changePhone"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:hint="Phone Number"
+        android:textSize="20sp"
+        android:width="270dp"
+        />
+
+    <Button
+        android:id="@+id/btnChangePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Phone Number"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        />
+
+</LinearLayout>

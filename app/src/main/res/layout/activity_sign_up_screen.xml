@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpScreen">
+
+    <EditText
+        android:id="@+id/emailSignUp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:textSize="20sp"
+        android:width="270dp"
+        android:digits="abcdefghijklmnopqrstuvwxyz1234567890@. "
+        />
+
+    <EditText
+        android:id="@+id/passwordSignUp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:width="270dp"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/fullNameSignUp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Full Name"
+        android:textSize="20sp"
+        android:width="270dp"
+        />
+
+    <EditText
+        android:id="@+id/phoneNumberSignUp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Phone Number"
+        android:textSize="20sp"
+        android:width="270dp"
+        />
+
+    <EditText
+        android:id="@+id/citySignUp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="City"
+        android:textSize="20sp"
+        android:width="270dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_gravity="center"/>
+
+    <DatePicker
+        android:id="@+id/dpBirthDate"
+        android:layout_width="230dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <Switch
+        android:id="@+id/swIsTrainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="I'm a trainer"
+        android:textSize="20sp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/SignUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        android:width="170dp"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

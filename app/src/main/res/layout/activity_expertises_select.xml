@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ExpertisesSelect">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:layout_marginTop="30dp"
+        android:text="Please select your sport training expertises. \nNote that you will only be able to create training sessions in these expertises. \n(Can be changed in settings at any time)"/>
+
+    <TextView
+        android:id="@+id/tvSelectExpertises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:drawableRight="@android:drawable/arrow_down_float"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="50dp"
+        android:hint="Select Expertises"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:text="Please provide a short description about yourslef"
+        />
+
+
+    <EditText
+        android:id="@+id/descriptionSignUp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="Description"
+        android:width="270dp"
+        android:textSize="20sp"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Finish"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
